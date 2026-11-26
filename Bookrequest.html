@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System - BookRequest</title>
+</head>
+<body bgcolor="#FFE6E8">
+<header>
+    <h1 align="center"><font color="#007C80">Library Book Request Form</font></h1>
+</header>
+<nav align="center">
+    <a href="Home.html">Home</a> |
+    <a href="Books.html">Books</a> |
+    <a href="Rules.html">Rules</a> |
+    <a href="bookrequest.html">Book_Request_Form</a> |
+    <a href="Contact.html">Contact</a>
+
+</nav>
+<hr>
+<main>
+ <h2>Request a Book</h2>
+
+    <form action="#" method="get">
+        <p>
+            <label for="member">Member Name:</label>
+            <input type="text" id="member" name="member"
+              placeholder="Enter your name" required><br><br> 
+        </p>
+
+        <p>
+            <label for="book">Book Name:</label>
+            <input type="text" id="book" name="book"    
+                placeholder="Enter Book name" required><br><br>
+
+        </p>
+
+        <p>
+            <label for="date">Borrow Date:</label>
+            <input type="date" id="date" name="date" required><br><br> 
+               
+        </p>
+
+        <p>
+            <label for="return">Return Date:</label>
+            <input type="date" id="return" name="return" required><br><br>
+        </p>
+
+        <p>
+            <label for="memberemail">Email:</label>
+            <input type="email" id="memberemail"
+                   name="memberemail" 
+               placeholder="Enter the email" required><br><br>
+        </p>
+
+        <button type="submit">Submit Request</button>
+        <button type="reset">Clear</button>
+    </form>
+
+    <p><b>Books should be returned within one month.<b></p>
+</main>
+<footer>
+    <hr><p align="center"><b>Simple library - Books request Information<b></p>
+</footer>
+
+
+</body>
+</html>
+
